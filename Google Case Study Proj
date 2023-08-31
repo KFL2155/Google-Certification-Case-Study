@@ -1,0 +1,35 @@
+BigQuery Project URL: https://console.cloud.google.com/bigquery?pli=1&project=coral-burner-397615&supportedpurview=project&ws=!1m4!1m3!3m2!1scoral-burner-397615!2sWellness!1m0
+
+Project Outline:
+
+1. A clear summary of the business task
+2. A description of all data sources used
+3. Documentation of any cleaning or manipulation of data
+4. A summary of your analysis
+5. Supporting visualizations and key findings
+6. Your top high-level content recommendations based on your analysis
+
+Where is your data stored?
+"Original data sourced from Kaggle"
+● How is the data organized? Is it in long or wide format?
+"Most of the data is in long format"
+● Are there issues with bias or credibility in this data? Does your data ROCCC?
+"There are serious issues with sample size as 30 is not a really large enough sample size. Since the company is geared toward women, we do not know if the data includes mostly men or women as that may lead to bias. The data is not really current (2016). It is cited and reliable."
+● How are you addressing licensing, privacy, security, and accessibility?
+● How did you verify the data’s integrity?
+● How does it help you answer your question?
+● Are there any problems with the data?
+I had some issues downloading some of the csv files into BigQuery. I also started with improting to GoogleSheets but the process took too lonmg, so I decided to try analyzing in SQL 
+
+File names used:
+dailyActivity_merged.csv
+dailyCalories_merged.csv
+dailyIntensities_merged.csv
+dailySteps_merged.csv
+FitBit_weight - weightLogInfo_merged.csv
+
+Things to Do:
+1.group active/moderate activity minutes
+2. filter to show calries burned sub 1,500
+3. track weight and track weight loss
+
