@@ -14,7 +14,7 @@ Where is your data stored?
 ● How is the data organized? Is it in long or wide format?
 "Most of the data is in long format"
 ● Are there issues with bias or credibility in this data? Does your data ROCCC?
-"There are serious issues with sample size as 30 is not a really large enough sample size. Since the company is geared toward women, we do not know if the data includes mostly men or women as that may lead to bias. The data is not really current (2016). It is cited and reliable."
+"There are serious issues with sample size as 30 (33*) is not a really large enough sample size. Since the company is geared toward women, we do not know if the data includes mostly men or women as that may lead to bias. The data is not really current (2016). It is cited and reliable."
 ● How are you addressing licensing, privacy, security, and accessibility?
 ● How did you verify the data’s integrity?
 ● How does it help you answer your question?
@@ -29,7 +29,22 @@ dailySteps_merged.csv
 FitBit_weight - weightLogInfo_merged.csv
 
 Things to Do:
-1.group active/moderate activity minutes
-2. filter to show calries burned sub 1,500
-3. track weight and track weight loss
+1.group active/moderate activity minutes- DONE
+2. filter to show calries burned sub 1,500- DONE
+3. track weight and track weight loss- DONE
+4. consecutive days without activity
+
+
+SQL FOR FINDING DISTINCT USERS
+SELECT COUNT (DISTINCT Id) AS People
+FROM `coral-burner-397615.Wellness.Intensity`
+
+
+SQL Code for finding users with no active days:
+
+SELECT Id, COUNTIF(FairlyActiveMinutes + VeryActiveMinutes = 0)
+FROM `coral-burner-397615.Wellness.Intensity` 
+GROUP BY Id
+
+From this result I found 
 
