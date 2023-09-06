@@ -9,19 +9,19 @@ Complete a Case Study by analyzing data of Fitbit users to provide insights to a
 
 TABLE OF CONTENTS:
 
-# SCENARIO
+ SCENARIO
 
-# ASK
+ ASK
 
-# PREPARE
+ PREPARE
 
-# PROCESS
+ PROCESS
 
-# ANALYZE
+ ANALYZE
 
-# SHARE
+ SHARE
 
-# ACT
+ ACT
 
 <SCENARIO>
 Role-play as a junior data analyst working on the marketing analyst team at Bellabeat, a high-tech manufacturer of
@@ -41,5 +41,5 @@ help Bellabeat achieve them
 
 
 
-# ACT
+ ACT
 this is the act part!
