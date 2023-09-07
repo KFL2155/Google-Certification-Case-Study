@@ -47,6 +47,23 @@ help Bellabeat achieve them
  <details>
 
 <summary> PREPARE </summary>
+
+   Download data source from Kaggle: [FitBit Fitness Tracker Data](https://www.kaggle.com/datasets/arashnic/fitbit)
+
+
+   ## Key tasks
+  1. Download data and store it appropriately.
+  2. Identify how it’s organized.
+  3. Sort and filter the data.
+  4. Determine the credibility of the data.
+
+**Findings:**
+Data is downloaded into my PC and uploaded to my [BigQuery Workspace](https://console.cloud.google.com/bigquery?pli=1&project=coral-burner-397615&supportedpurview=project&ws=!1m9!1m4!1m3!1scoral-burner-397615!2sbquxjob_7a74ac93_18a4c56c33b!3sUS!1m3!3m2!1scoral-burner-397615!2sWellness), as well as my personal GoogleDrive
+
+
+
+
+
  </details>
 
  <details>
