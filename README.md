@@ -60,8 +60,18 @@ help Bellabeat achieve them
 **Findings:**
 Data is downloaded into my PC and uploaded to my [BigQuery Workspace](https://console.cloud.google.com/bigquery?pli=1&project=coral-burner-397615&supportedpurview=project&ws=!1m9!1m4!1m3!1scoral-burner-397615!2sbquxjob_7a74ac93_18a4c56c33b!3sUS!1m3!3m2!1scoral-burner-397615!2sWellness), as well as my personal GoogleDrive
 
+Data is organized in a combination of long and wide data. There are 18 separate .csv files, each containing multiple data points all connected by the primary key: "Id". The "Id" is the user's Id number, and the database contains information on their activity per day, heart-rate, calories burned, BMI, steps, etc.
+After sorting and filtering the data, I found out that there are actually 33 distinct users, whereas the database description mentions only 30 users. 
 
+SQL code below to find number of distinct users:
 
+SELECT DISTINCT Id  
+FROM `coral-burner-397615.Wellness.Activity` 
+
+Regarding credibility, the data seems to be credible based on author and ethics of how the data was obtained. There are a few concerns worth noting for the ourposes of this case study:
+First, 33 users is a very small smaple size and is highly susceptible to bias and outliers skewing the analysis. Idealy, the sample size is close to 75-100 as there are millions of Fitbit users and 33 is a very small percentage of the population.
+
+Secondly, this case-study is designed for a company with a **women-centric** business model. However, the Fitbit Database is not clear as to the gender distribution of it's users. In other words, it would be important to know of the users of the database are mostly women are men. The database might not be too helpful if most of the users were male as women and men have different metabolism that affect weight, calories burned, etc.
 
 
  </details>
