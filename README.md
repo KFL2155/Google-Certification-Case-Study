@@ -3,12 +3,12 @@ by Kevin L
 
 Date: September 6, 2023
 
-Objective:
+  **Objective**:
+  Complete a Case Study by analyzing data of Fitbit users to provide insights to a growing women's wellness start-up.
 
-Complete a Case Study by analyzing data of Fitbit users to provide insights to a growing women's wellness start-up.
 
 <details>
-<summary>SCENARIO </summary>
+<summary> SCENARIO </summary>
 
 Role-play as a junior data analyst working on the marketing analyst team at Bellabeat, a high-tech manufacturer of
 health-focused products for women. Bellabeat is a successful small company, but they have the potential to become a larger
@@ -26,33 +26,48 @@ help Bellabeat achieve them
 </details>
 
  <details>
-<summary>ASK </summary>
+<summary> ASK </summary>
+
+1. What are some trends in smart device usage?
+2. How could these trends apply to Bellabeat customers?
+3. How could these trends help influence Bellabeat marketing strategy?
+
+ ## Guiding questions
+● What is the problem you are trying to solve?
+
+● How can your insights drive business decisions?
+
+## Key tasks
+1. Identify the business task
+2. Consider key stakeholder
+
+   
 </details>
 
  <details>
 
-<summary>PREPARE </summary>
+<summary> PREPARE </summary>
  </details>
 
  <details>
 
-<summary> PROCESS </summary>
+<summary> **PROCESS </summary>
 </details>
 
  <details>
 
-<summary> ANALYZE </summary>
+<summary> **ANALYZE </summary>
 
  </details>
 
   <details>
 
-<summary> SHARE </summary>
+<summary> **SHARE </summary>
  </details>
 
  <details>
 
-<summary> ACT </summary>
+<summary> **ACT </summary>
  </details>
 
 
