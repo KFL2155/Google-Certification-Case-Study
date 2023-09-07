@@ -79,6 +79,24 @@ Secondly, this case-study is designed for a company with a **women-centric** bus
  <details>
 
 <summary> **PROCESS </summary>
+
+Key tasks
+1. Check the data for errors.
+2. Choose your tools.
+3. Transform the data so you can work with it effectively.
+4. Document the cleaning process
+
+**Findings:**
+This case study was my first time using SQL to analyze and process data. When importing .csvc files from my PC onto BigQuery, I noticed an error that kept appearing:
+
+Failed to create table: Error while reading data, error message: Could not parse '4/12/2016 2:47:30 AM' as TIMESTAMP for field date (position 1) starting at location 21 with message 'Invalid time zone: AM' 
+
+I assumed this error was due to "AM/PM" as a string causing issues with the time/date format.
+I fixed this issue by removing the AM/PM from this column, using the "Find/Replace" tool in Excel. 
+
+I used BigQuery to analyze and manipulate the data with SQL, Tableau to create my visualizations, and Github to document my progress and add important notes for future use.
+I also used GoogleSheets to help filter data for smaller .csv files, as I found that easier than using SQL.
+
 </details>
 
  <details>
