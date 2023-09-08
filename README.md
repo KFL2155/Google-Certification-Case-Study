@@ -103,7 +103,52 @@ I also used GoogleSheets to help filter data for smaller .csv files, as I found 
 
  <details>
 
-<summary> **ANALYZE </summary>
+<summary> ANALYZE </summary>
+
+Key tasks
+1. Aggregate your data so it’s useful and accessible.
+2. Organize and format your data.
+3. Perform calculations.
+4. Identify trends and relationships.
+
+**Findings:**
+The first thing I wanted to examine was any trends regarding weight. 
+Preview of Weight table below:
+
+| Id	| Date | WeightPounds |
+| -------------  | -------------  | -------------  |
+| 1503960366 |	5/2/2016	| 115.9631465 |
+| 1503960366 |	5/3/2016	| 115.9631465 |
+| 1927972279 |	4/13/2016	| 294.31712 |
+| 2873212765 |	4/21/2016	| 125.0021043 |
+| 2873212765 |	5/12/2016	| 126.3248746 |
+| 4319703577 |	4/17/2016	| 159.6146812 |
+| 4319703577 |	5/4/2016	| 159.3942223 |
+| 4558609924 |	4/18/2016	| 153.66219 |
+| 4558609924 |	4/25/2016	| 154.984977 |
+
+I noticed that there were only 8 unique users that tracked weight. SQL code below:
+
+SELECT COUNT (DISTINCT Id) as UniqueId
+ FROM `coral-burner-397615.Wellness.RealWeight`
+
+This stood out as beingf very low sample size to me, but I was still interested to I created a line chart for it to track weight over time.
+
+Next I wanted to track meaningful activity minutes, which I perceived as VeryActiveMinutes + FairlyActiveMinutes. In the 'Activty' speadsheet, I created a formula in SQL to combine these minutes to get the sum of active minutes.
+SQL code below:
+
+SELECT Id, ActivityDate, (VeryActiveMinutes + FairlyActiveMinutes ) as ActiveMinutes 
+FROM `coral-burner-397615.Wellness.Activity` 
+
+Preview of updated table below:
+
+| Id	| Date | ActiveMinutes |
+| -------------  | -------------  | -------------  |
+| 8053475328 |	4/12/2016 |	124 |
+| 8053475328	| 4/13/2016 |	107 |
+| 8053475328	| 4/14/2016 |	124 |
+| 8053475328	| 4/15/2016 |	140 |
+| 8053475328	| 4/17/2016 |	132 |
 
  </details>
 
