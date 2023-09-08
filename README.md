@@ -197,13 +197,32 @@ Preview of results:
 | 5553957443	| 4 |
 
 
+It might seem obvious, but my analysis shows that the 33 fitbit users were, overall, fairly active. Most users logged data in their Fitbit fairly regularly. The majority of users logged days which I categorized as active; there seems to be a correlation between people who purchase Fitbits and their desire to start or mantain a healthy lifestyle.
+
  </details>
 
   <details>
 
-<summary> **SHARE </summary>
+<summary> SHARE </summary>
+
+
+## Guiding questions
+● Were you able to answer the business questions?
+● What story does your data tell?
+● How do your findings relate to your original question?
+● Who is your audience? What is the best way to communicate with them?
+● Can data visualization help you share your findings?
+● Is your presentation accessible to your audience?
+## Key tasks
+1. Determine the best way to share your findings.
+2. Create effective data visualizations.
+3. Present your findings.
+4. Ensure your work is accessible.
+
+
  </details>
 
+ 
  <details>
 
 <summary> **ACT </summary>
