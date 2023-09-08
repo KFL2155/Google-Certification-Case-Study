@@ -132,7 +132,7 @@ I noticed that there were only 8 unique users that tracked weight. SQL code belo
 SELECT COUNT (DISTINCT Id) as UniqueId
  FROM `coral-burner-397615.Wellness.RealWeight`
 
-This stood out as beingf very low sample size to me, but I was still interested to I created a line chart for it to track weight over time.
+This stood out as being a very low sample size to me, but I was still interested so I created a line chart for it to track weight over time. See "SHARE" Tab for visualization.
 
 Next I wanted to track meaningful activity minutes, which I perceived as VeryActiveMinutes + FairlyActiveMinutes. In the 'Activty' speadsheet, I created a formula in SQL to combine these minutes to get the sum of active minutes.
 SQL code below:
@@ -169,6 +169,32 @@ The above code takes the sum of Fairly Active and Very Active Minutes columns, a
 | 2022484408	| 2 |
 | 2347167796	| 4 |
 | 3977333714	| 1|
+
+
+Next, I wanted to analyze calories burned. Here, it is hard to determine how the calories burned by exercise is measured, since the human body naturally burns calories in a resting state. In this context, it is also important to remeber that men and woment burn calories differently:
+
+Per the [Cleveland Clinic](https://health.clevelandclinic.org/calories-burned-in-a-day/), women burn around 1,500 calroies a day, whereas men burn around 2,000, without factoring any calories burned through exercise. As I mentioned before, it would be helpful to know which users were men and woment to create a more accurate metric.
+As an assumption, I set 1,500 calories as the standard, so any day where a user burned less than 1,500 calories would be flagged. SQL code below:
+
+
+SELECT Id, COUNTIF(Calories < 1500) as LowCalories
+FROM `coral-burner-397615.Wellness.Calories_Sub_1500`
+GROUP BY Id
+ORDER BY LowCalorIes DESC
+
+This SQL code counts how often a user burned less than 1,500 calories on any guven day, and then sorted it in Descendingf order.
+
+Preview of results:
+
+| Id | LowCalories |
+| -------------  | -------------  |
+| 1624580081	| 23 |
+| 2026352035	| 14 |
+| 1844505072	| 14 |
+| 3977333714	| 9 |
+| 2320127002	| 6 |
+| 6117666160	| 6 |
+| 5553957443	| 4 |
 
 
  </details>
