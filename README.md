@@ -150,6 +150,27 @@ Preview of updated table below:
 | 8053475328	| 4/15/2016 |	140 |
 | 8053475328	| 4/17/2016 |	132 |
 
+Now that I had a summary of how active users were, it was time to examine users who had no activity.
+
+SQL code below:
+
+SELECT Id, COUNTIF(FairlyActiveMinutes + VeryActiveMinutes = 0) as NoActivityDays
+FROM `coral-burner-397615.Wellness.Intensity` 
+GROUP BY Id
+
+The above code takes the sum of Fairly Active and Very Active Minutes columns, and returns a TRUE value if the sum is zero. Then it groups each instance by user ID. Preview of table result below:
+
+| Id	| NoActivityDays |
+| -------------  | -------------  |
+| 4020332650	| 23 |
+| 8877689391	| 1 |
+| 6962181067	| 6 |
+| 1644430081	| 9 |
+| 2022484408	| 2 |
+| 2347167796	| 4 |
+| 3977333714	| 1|
+
+
  </details>
 
   <details>
