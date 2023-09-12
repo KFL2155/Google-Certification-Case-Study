@@ -224,7 +224,7 @@ It might seem obvious, but my analysis shows that the 33 fitbit users were, over
 
 My findings tell a story of users who care about tracking their wellness, but also a signifigant number of users with a lack of tracking activity. The majority of users seem to maintain healthy habits, but perhaps there are users who find it dufficult to track data.
 
-For example, the below table is a visualization of usres who are treacking their weight over the one month time period. The first important observation is that only a minority of the 33 registered users chose to track their weight. In addition, only a handful of these users engaged in regular weight tracking; a few users only logged their weight once or twice.
+For example, the below table is a visualization of usres who are tracking their weight over the one month time period. The first important observation is that only a minority of the 33 registered users chose to track their weight. In addition, only a handful of these users engaged in regular weight tracking; a few users only logged their weight once or twice.
 
 ![WEIGHT](12.PNG)
 
