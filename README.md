@@ -248,6 +248,7 @@ Lastly, I wanted to also track data regarding sleep. Sleep is a fundamental aspe
 
 ## Guiding questions
 ● What is your final conclusion based on your analysis?
+
 ● How could your team and business apply your insights?
 
 ## FINAL RECOMMENDATIONS AND THOUGHTS
