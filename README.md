@@ -68,8 +68,8 @@ SQL code below to find number of distinct users:
 SELECT DISTINCT Id  
 FROM `coral-burner-397615.Wellness.Activity` 
 
-Regarding credibility, the data seems to be credible based on author and ethics of how the data was obtained. There are a few concerns worth noting for the ourposes of this case study:
-First, 33 users is a very small smaple size and is highly susceptible to bias and outliers skewing the analysis. Idealy, the sample size is close to 75-100 as there are millions of Fitbit users and 33 is a very small percentage of the population.
+Regarding credibility, the data seems to be credible based on author and ethics of how the data was obtained. There are a few concerns worth noting for the purposes of this case study:
+First, 33 users is a very small smaple size and is highly susceptible to bias and outliers skewing the analysis. Idealy, the sample size is close to 75-100 at a minimum as there are millions of Fitbit users and 33 is a very small percentage of the population.
 
 Secondly, this case-study is designed for a company with a **women-centric** business model. However, the Fitbit Database is not clear as to the gender distribution of it's users. In other words, it would be important to know of the users of the database are mostly women are men. The database might not be too helpful if most of the users were male as women and men have different metabolism that affect weight, calories burned, etc.
 
@@ -93,7 +93,7 @@ This case study was my first time using SQL to analyze and process data. When im
 
 I assumed this error was due to "AM/PM" as a string causing issues with the time/date format.
 I fixed this issue by removing the AM/PM from this column, using the "Find/Replace" tool in Excel. 
-After transforming the dta in Excel, I imported it again into my SQL database and re-named it to avoid confusion with the original.
+After transforming the data in Excel, I imported it again into my SQL database and re-named it to avoid confusion with the original.
 BigQuery Database again for refernece [here](https://console.cloud.google.com/bigquery?pli=1&project=coral-burner-397615&supportedpurview=project&ws=!1m10!1m4!1m3!1scoral-burner-397615!2sbquxjob_7a74ac93_18a4c56c33b!3sUS!1m4!4m3!1scoral-burner-397615!2sWellness!3sCalories)
 
 I used BigQuery to analyze and manipulate the data with SQL, Tableau to create my visualizations, and Github to document my progress and add important notes for future use.
@@ -197,7 +197,7 @@ Preview of results:
 | 5553957443	| 4 |
 
 
-It might seem obvious, but my analysis shows that the 33 fitbit users were, overall, fairly active. Most users logged data in their Fitbit fairly regularly. The majority of users logged days which I categorized as active; there seems to be a correlation between people who purchase Fitbits and their desire to start or mantain a healthy lifestyle.
+It might seem obvious, but my analysis shows that the 33 fitbit users were, overall, fairly active. Most users logged data in their Fitbit fairly regularly. The majority of users logged days which I categorized as active; there seems to be a correlation between people who purchase Fitbits and their desire to develop or mantain a healthy lifestyle.
 
  </details>
 
