@@ -223,6 +223,14 @@ It might seem obvious, but my analysis shows that the 33 fitbit users were, over
 ![WEIGHT](1.PNG)
 
 
+
+![SLEEP]()
+
+
+
+![ACTIVITY]()
+
+
  </details>
 
  
