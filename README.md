@@ -234,7 +234,7 @@ Here, we see a slight majority towards people who were living an active lifestyl
 
 ![ACTIVITY](1.PNG)
 
-Lastly, I wanted to also track data regarding sleep. Sleep is a fundamental aspect of a healthy lifestyle. The [MAYO Clinic](https://www.mayoclinic.org/healthy-lifestyle/adult-health/expert-answers/how-many-hours-of-sleep-are-enough/faq-20057898) suggests at adults should engage in at least 7 hours of deep sleep to prevent serious issues such as stress, weight gain, depression, and heart disease. 
+Lastly, I wanted to also track data regarding sleep. Sleep is a fundamental aspect of a healthy lifestyle. The [MAYO Clinic](https://www.mayoclinic.org/healthy-lifestyle/adult-health/expert-answers/how-many-hours-of-sleep-are-enough/faq-20057898) suggests at adults should engage in at least 7 hours of deep sleep to prevent serious issues such as stress, weight gain, depression, and heart disease. Adults should get no more than 2,900 minutes of sleep a week (7 hours a day). We see another case where not all users 33 users are logging their sleep schedules.
 
 ![SLEEP](2.PNG)
 
