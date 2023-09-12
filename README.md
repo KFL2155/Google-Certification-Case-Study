@@ -245,6 +245,24 @@ Lastly, I wanted to also track data regarding sleep. Sleep is a fundamental aspe
  <details>
 
 <summary> ACT </summary>
+
+## Guiding questions
+● What is your final conclusion based on your analysis?
+● How could your team and business apply your insights?
+
+## FINAL RECOMMENDATIONS AND THOUGHTS
+
+Overall, I would stress that it might be important to gather data that has a larger sample size. As previously mentioned, the small sample size allows outliers to heavily skew trends and may erroneously disprove correlations.
+Regarding strategy, I would recommend that Bellabeat send out a survery to their users and ask the following questions:
+
+1. How often are you tracking your wellness activities?
+2. What pain points are you experiencing with our products?
+3. How do you expect our products to help your lifestyle?
+
+From the Fitbit study, it is not clear why the majority of users were not tracking weight. Is weight tracking an important aspects for users concerned with their wellness? Could there be a certain pain point with tracking weight? I would recommend Bellabeat to examine their technology and see if there is a way to make weight/calorie tracking more seamless.
+Lastly, I noticed that some of Bellabeat's products may not be comfortable to wear while sleeping. As mentioned in previous sections, sleep is crucial to a healthy lifetstly, so I suggest Bellabeat develop a compforatble product to help track sleep, like a finger ring or flexible bracelet. 
+
+
  </details>
 
 
