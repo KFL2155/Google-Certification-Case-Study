@@ -1,7 +1,7 @@
 # Google Certificate: Bellabeat CaseStudy
 by Kevin L
 
-Date: September 6, 2023
+Date: September 12, 2023
 
   **Objective**:
   Complete a Case Study by analyzing data of Fitbit users to provide insights to a growing women's wellness start-up.
