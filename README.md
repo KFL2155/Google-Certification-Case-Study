@@ -234,7 +234,7 @@ Here, we see a slight majority towards people who were living an active lifestyl
 
 ![ACTIVITY](1.PNG)
 
-Lastly, I wanted to also track data regarding sleep. Sleep is a fundamental aspect of a healthy lifestyle. The [MAYO Clinic](https://www.mayoclinic.org/healthy-lifestyle/adult-health/expert-answers/how-many-hours-of-sleep-are-enough/faq-20057898) suggests that adults should engage in at least 7 hours of deep sleep to prevent serious issues such as stress, weight gain, depression, and heart disease. Adults should get no more than 2,900 minutes of sleep a week (7 hours a day). We see another case where not all users 33 users are logging their sleep schedules. With the users that did provide a satisfactory amount of sleep data, we see that the majority of them did tend to have healthy sleeping habits.
+Lastly, I wanted to also track data regarding sleep. Sleep is a fundamental aspect of a healthy lifestyle. The [MAYO Clinic](https://www.mayoclinic.org/healthy-lifestyle/adult-health/expert-answers/how-many-hours-of-sleep-are-enough/faq-20057898) suggests that adults should engage in at least 7 hours of deep sleep to prevent serious issues such as stress, weight gain, depression, and heart disease. Adults should get no more than 2,900 minutes of sleep a week (7 hours a day). We see another case where not all users 33 users are logging their sleep schedules. With the users that did provide a satisfactory amount of sleep data, we see that the majority of them did tend to have healthy sleeping habits. However, there were some weeks where most users did not sleep for even 2500 minutes which can cause some concern. This visualization is important because it should stress that having an active lifestyle is not the only factor in maintaining overall wellness. Sleep and rest is important because the human body needs proper recovery when engaging in vigourous, intense exercise.
 
 ![SLEEP](2.PNG)
 
@@ -244,7 +244,7 @@ Lastly, I wanted to also track data regarding sleep. Sleep is a fundamental aspe
  
  <details>
 
-<summary> **ACT </summary>
+<summary> ACT </summary>
  </details>
 
 
