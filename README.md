@@ -229,15 +229,12 @@ For example, the below table is a visualization of usres who are tracking their 
 ![WEIGHT](12.PNG)
 
 
-The next visualization depicts the number of active days each user logged. "Active" is defined by having done at least 60 minutes of moderact to vigorous activty, as recommended by the [WHO](https://www.who.int/news-room/fact-sheets/detail/physical-activity).
-Here, we see a roughly even split between users who were not active enough per health standards, and users who were very active throughout the month.
+The next visualization depicts the number of active days each user logged. "Active" is defined by having done at least 60 minutes of moderate to vigorous activty at least twice a week, as recommended by the [WHO](https://www.who.int/news-room/fact-sheets/detail/physical-activity).
+Here, we see a slight majority towards people who were living an active lifestyle. This supports my hypothesis that people who are using Fitbit generally have a desire or purpose to maintain an active lifestyle.
 
 ![ACTIVITY](1.PNG)
 
-
-
-
-
+Lastly, I wanted to also track data regarding sleep. Sleep is a fundamental aspect of a healthy lifestyle. The [MAYO Clinic](https://www.mayoclinic.org/healthy-lifestyle/adult-health/expert-answers/how-many-hours-of-sleep-are-enough/faq-20057898) suggests at adults should engage in at elast 7 hours of deep sleep to prevent serious issues such as stress, weight gain, depression, and heart disease. 
 
 ![SLEEP](2.PNG)
 
