@@ -220,15 +220,15 @@ It might seem obvious, but my analysis shows that the 33 fitbit users were, over
 4. Ensure your work is accessible.
 
 
-![WEIGHT](1.PNG)
+![ACTIVITY](1.PNG)
 
 
 
-![SLEEP]()
+![WEIGHT](12.PNG)
 
 
 
-![ACTIVITY]()
+![SLEEP](2.PNG)
 
 
  </details>
