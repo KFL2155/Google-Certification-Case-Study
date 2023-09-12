@@ -229,7 +229,8 @@ For example, the below table is a visualization of usres who are tracking their 
 ![WEIGHT](12.PNG)
 
 
-
+The next visualization depicts the number of active days each user logged. "Active" is defined by having done at least 60 minutes of moderact to vigorous activty, as recommended by the [WHO](https://www.who.int/news-room/fact-sheets/detail/physical-activity).
+Here, we see a roughly even split between users who were not active enough per health standards, and users who were very active throughout the month.
 
 ![ACTIVITY](1.PNG)
 
